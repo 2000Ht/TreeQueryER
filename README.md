@@ -1,11 +1,11 @@
 # TreeQueryER
 
+## Run FrontEnd
 ```
 cd ./FrontEnd
 ```
 
 ## Project setup
-
 ```
 npm install
 ```
@@ -20,8 +20,13 @@ npm run serve
 npm run build
 ```
 
+## Run BackEnd
 ```
 cd ./BackEnd
+```
+
+## Project setup
+```
 python communicator.py
 ```
 
