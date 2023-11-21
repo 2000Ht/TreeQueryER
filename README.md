@@ -20,3 +20,8 @@ npm run serve
 npm run build
 ```
 
+```
+cd ./BackEnd
+python communicator.py
+```
+
