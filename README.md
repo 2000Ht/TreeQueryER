@@ -13,7 +13,18 @@ For the context-creation mode, we propose a graph contrastive learning method co
 ## Pipeline
 ![](./image/pipeline.jpg)
 
-## Run FrontEnd
+The exploratory framework for querying multivariate hierarchical data comprises three modes: top-down, bottom-up, and context-creation. 
+The top-down mode starts from a clear query task. Users construct the corresponding query expression through direct manipulations interactively. The bottom-up mode recommends additional related query statements based on the initial expression and the multivariate hierarchical data collection. The context creation mode offers users an overview of the entire hierarchical data collection. Modules associated with the top-down, bottom-up, and context creation modes in the framework are denoted by red, orange, and blue triangles.
+
+## Prototype System
+![](./image/system.jpg)
+The interface of TreeQueryER prototype system. (a) data collection overview panel. (b) data distribution panel. (c) tree visualization panel. (d) visual editor panel. (e) expression recommendation panel.
+
+## Usage
+
+Here, we provide instructions for reproducing results. To build and run this project on your own, you need to run the back-end and the front-end simultaneously. We offer quick steps to get started.
+
+### Run FrontEnd
 ```
 cd ./FrontEnd
 ```
@@ -33,7 +44,7 @@ Compiles and minifies for production (only for finishing the whole project)
 npm run build
 ```
 
-## Run BackEnd
+### Run BackEnd
 ```
 cd ./BackEnd
 ```
