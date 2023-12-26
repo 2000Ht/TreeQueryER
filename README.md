@@ -11,7 +11,7 @@ For the context-creation mode, we propose a graph contrastive learning method co
 **To help understand TreeQueryER, the YouTube URL of the video is:** https://youtu.be/_m4x0639SL4
 
 ## Pipeline
-![](./image/pipeline.png)
+![](./image/pipeline.jpg)
 
 ## Run FrontEnd
 ```
