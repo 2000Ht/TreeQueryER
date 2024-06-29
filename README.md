@@ -11,7 +11,7 @@ For the context-creation mode, we propose a graph contrastive learning method co
 **To help understand TreeQueryER, the YouTube URL of the video is:** https://youtu.be/_m4x0639SL4
 
 ## Pipeline
-![](./image/pipeline.pdf)
+![](./image/pipeline.png)
 
 The exploratory framework for querying multivariate hierarchical data comprises three modes: top-down, bottom-up, and context-creation. 
 The top-down mode starts from a clear query task. Users construct the corresponding query expression through direct manipulations interactively. The bottom-up mode recommends additional related query statements based on the initial expression and the multivariate hierarchical data collection. The context creation mode offers users an overview of the entire hierarchical data collection. Modules associated with the top-down, bottom-up, and context creation modes in the framework are denoted by red, orange, and blue triangles.
